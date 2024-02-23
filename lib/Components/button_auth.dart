@@ -12,8 +12,8 @@ class button_auth extends StatelessWidget {
       style: TextStyle(
       color: Color.fromARGB(255, 99, 4, 4),
       fontWeight: FontWeight.bold,
-      fontSize: 30,
-      letterSpacing: 100,
+      fontSize: 10,
+      letterSpacing: 450,
       ),
       ),
     );
