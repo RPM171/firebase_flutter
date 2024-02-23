@@ -14,8 +14,8 @@ final bool ObscureText;
     return Padding(padding: const EdgeInsets.symmetric(horizontal:25),
     child: TextField(
       cursorColor:  const Color.fromARGB(255, 255, 253, 253),
-      style: TextStyle(
-        color: Colors.white,(fontSize: 16,fontWeight: FontWeight.w400),
+      style: const TextStyle(
+        color: Colors.white,
       ),
       controller: controller,
       obscureText: ObscureText,
